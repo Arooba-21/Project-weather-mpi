@@ -64,4 +64,4 @@ Speedup improves significantly with heavier computations and larger datasets.
 
 ## Course
 Parallel and Distributed Computing
-BSCS 6th Semester — Dawood University of Engineering and Technology
+
