@@ -1,0 +1,1 @@
+{"final_stats": {"avg_temp": 9.450147354304233, "max_temp": 37.28, "min_temp": -23.01, "avg_humidity": 76.00825940254572, "avg_wind": 1.7022238444326607, "max_wind": 28.49}, "seq_time": 0.6518809795379639, "par_time": 0.8000850677490234, "speedup": 0.8147645866857381, "num_processes": 4}
