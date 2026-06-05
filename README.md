@@ -65,3 +65,9 @@ Speedup improves significantly with heavier computations and larger datasets.
 ## Course
 Parallel and Distributed Computing
 
+
+## Output Charts
+
+![Weather Analysis](output/weather_analysis.png)
+
+![Speedup Analysis](output/speedup_analysis.png)
