@@ -1,15 +1,14 @@
 # Weather Data Analysis using MPI
-
-A parallel computing project analyzing 420,000+ rows of climate data using MPI (Message Passing Interface) in Python.
-
-## Overview
+A parallel computing project analyzing climate data using MPI (Message Passing Interface) in Python.
 Large weather dataset distributed across multiple MPI processes. Each process computes local statistics independently. Results gathered at root process and combined for final output.
 
 ## Tech Stack
-- mpi4py — MPI bindings for Python
-- pandas — Data loading and preprocessing
-- matplotlib — Visualizations
-- MPICH — MPI engine via WSL/Ubuntu
+![MPI](https://img.shields.io/badge/MPI-mpi4py-0C4B8E?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
+![MPICH](https://img.shields.io/badge/MPICH-MPI_Implementation-00599C?style=for-the-badge)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 
 ## Project Structure
 - src/preprocess.py — Data cleaning
@@ -26,26 +25,17 @@ Large weather dataset distributed across multiple MPI processes. Each process co
 ## How to Run
 
 Install dependencies:
-    sudo apt install mpich python3-pip
-    pip3 install mpi4py pandas matplotlib seaborn --break-system-packages
+- sudo apt install mpich python3-pip
+- pip3 install mpi4py pandas matplotlib seaborn --break-system-packages
 
 Step 1 - Preprocess data:
-    python3 src/preprocess.py
+- python3 src/preprocess.py
 
 Step 2 - Run parallel analysis with 4 processes:
-    mpirun -n 4 python3 src/parallel_analysis.py
+- mpirun -n 4 python3 src/parallel_analysis.py
 
 Step 3 - Generate visualizations:
-    python3 src/visualize.py
-
-## Results
-
-Average Temperature  : 9.45 C
-Max Temperature      : 37.28 C
-Min Temperature      : -23.01 C
-Average Humidity     : 76.01 %
-Average Wind Speed   : 1.70 m/s
-Max Wind Speed       : 28.49 m/s
+- python3 src/visualize.py
 
 ## Performance
 
