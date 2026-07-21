@@ -3,12 +3,12 @@ A parallel computing project analyzing climate data using MPI (Message Passing I
 Large weather dataset distributed across multiple MPI processes. Each process computes local statistics independently. Results gathered at root process and combined for final output.
 
 ## Tech Stack
-![MPI](https://img.shields.io/badge/MPI-mpi4py-0C4B8E?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge)
-![MPICH](https://img.shields.io/badge/MPICH-MPI_Implementation-00599C?style=for-the-badge)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![MPI](https://img.shields.io/badge/MPI-mpi4py-0C4B8E?style=flat)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat)
+![MPICH](https://img.shields.io/badge/MPICH-MPI_Implementation-00599C?style=flat)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)
 
 ## Project Structure
 - src/preprocess.py — Data cleaning
